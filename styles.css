@@ -1,0 +1,70 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #000;
+    color: #000;
+}
+
+
+.tab {
+    padding-left:2em
+}
+
+a[href^="https"]
+{
+    font-weight: bold;
+}
+
+
+footer p {
+    font-style: oblique;
+}
+
+#homeButton,
+.navButton {
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 150ms, color 150ms;
+}
+
+#homeButton:hover,
+.navButton:hover {
+    background-color: rgb(199, 199, 199);
+    color: white;
+  }
+
+.navButton {
+    padding: 12px 20px;
+    font-size: 12px;
+
+}
+
+.square-box {
+    height: 80vh;
+    border: 1px solid black;
+}
+
+#copyEmail {
+    background-color: white;
+    font-size: 16px;
+    margin: 0px;
+}
+#copyEmail:hover {
+    background-color: rgb(199, 199, 199);
+}
+#myEmail {
+    font-size: 18px
+}
